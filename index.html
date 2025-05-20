@@ -29,18 +29,18 @@
             justify-content: center;
             gap: 20px;
             width: 100%;
-            max-width: 1400px;
+            max-width: 1900px;
         }
 
         .animation-container {
             /* background-color: white; */
             border-radius: 8px;
-            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            /* box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); */
             overflow: hidden;
             flex: 1;
-            min-width: 200px;
-            max-width: 250px;
-            height: 200px;
+            /* min-width: 200px; */
+            /* max-width: 250px; */
+            /* height: 200px; */
             display: flex;
             justify-content: center;
             align-items: center;
@@ -72,6 +72,7 @@
         <div class="animation-container" id="animation4"></div>
         <div class="animation-container" id="animation5"></div>
         <div class="animation-container" id="animation6"></div>
+        <div class="animation-container" id="animation7"></div>
     </div>
 
     <script>
@@ -95,6 +96,7 @@
         // Загрузка всех анимаций
         function loadAllAnimations() {
             loadAnimation('animation1', 'Frame 13-график2.json');
+            loadAnimation('animation7', 'Frame 13.json');
             loadAnimation('animation2', 'Frame 13-график.json');
             loadAnimation('animation3', 'sun.json');
             loadAnimation('animation4', 'Frame 13-connection1.json');
